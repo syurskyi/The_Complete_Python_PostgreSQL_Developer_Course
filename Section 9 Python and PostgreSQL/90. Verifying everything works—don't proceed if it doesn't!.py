@@ -1,8 +1,8 @@
 import psycopg2
 
 connection = psycopg2.connect(database='learning',
-                              user='postgres',
-                              password='1234',
+                              user='syurskyi',
+                              password='SergejShake4.0',
                               host='localhost')
 cursor = connection.cursor()
 cursor.execute("SELECT * FROM purchases")
