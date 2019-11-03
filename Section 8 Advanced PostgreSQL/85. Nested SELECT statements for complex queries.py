@@ -26,3 +26,4 @@ SELECT *, items.price -
 FROM items WHERE price > 100;
 
 SELECT * FROM  expencive_items_diff
+
